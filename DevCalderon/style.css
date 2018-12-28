@@ -62,10 +62,25 @@ nav li:hover{
     width:100%;
 }
 
-.content-section{
+.content-section-s, .content-section-m{
     margin-top:2%;
 }
 
+.content-section-s{
+    height:500px;
+}
+
+.content-section-m{
+    height:700px;
+}
+
+/*Container Interface*/
+.template-0{
+    background: linear-gradient(to bottom, #e6ffcc 0%,#ccffff 100%);
+    box-shadow: 0px 0px 5px -2px;
+}
+
+/*Flex box settings*/
 .set-h-flex{
     display:flex;
     justify-content: center;
@@ -77,51 +92,93 @@ nav li:hover{
     align-items: center;
 }
 
+/*Content specific settings*/
 #bio-first{
-    height:500px;
-    background: linear-gradient(to bottom, #e6ffcc 0%,#ccffff 100%);
-    box-shadow: 0px 0px 5px -2px;
     font-family:Garamond;
-}
-
-#bio-first p{
-    font-family:Garamond;
-    padding-left:5%;
-}
-
-.bio-line-1{
-    font-size:40px;
-}
-
-.bio-line-2{
-    font-size:39px;
-    font-weight:bold;
-}
-
-.bio-line-3{
-    font-size:20px;
-    text-align:right;
-}
-
-#bio-second{
-    height:300px;
-}
-
-#bio-second p{
-    padding-left:5%;
 }
 
 #bio-third{
-    height:500px;
-    background: linear-gradient(to bottom, #e6ffcc 0%,#ccffff 100%);
-    box-shadow: 0px 0px 5px -2px;
     font-family:Garamond;
 }
 
-#bio-third p{
+/*Table templates*/
+#introductions{
+    width:480px;
+}
+
+#biography{
+    width:750px;
+}
+
+#web-technologies{
+    width:530px;
+}
+
+#skills-first{
+    display:flex;
+    align-items: baseline;
+}
+
+#skills{
+    width:900px;
+    background-color:red;
+}
+
+/*Paragraph Left padding*/
+.pl-s p{
     padding-left:5%;
 }
 
-#bio-third-article{
-    width:750px;
+.pr-s p{
+    padding-right:5%;
+}
+
+/*Text alignment*/
+.talign-l{
+    text-align:left;
+}
+
+.talign-r{
+    text-align:right;
+}
+
+/*Font Weight*/
+.t-bold{
+    font-weight:bold;
+}
+
+/*Font size*/
+
+.t-s-s{
+    font-size: 15px;
+}
+
+.t-s-m{
+    font-size:20px;
+}
+
+.t-s-l{
+    font-size:30px;
+}
+
+.t-s-xl{
+    font-size:40px;
+}
+
+.t-s-xxl{
+    font-size:50px;
+}
+
+/*Tables*/
+
+
+.content-title{
+    width:100%;
+    display:flex;
+    justify-content: flex-start;
+
+}
+
+.row{
+    width:60%;
 }
