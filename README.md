@@ -9,7 +9,7 @@ For GITHUBERS to play around and modify for their own Portfolio.
 Languages:
 HTML5, CSS3 and JavaScript
 
-Design file: 
+Design file: (NOT INCLUDED)
 
 Tasks:
 1. Add the essential content
