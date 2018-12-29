@@ -2,9 +2,9 @@
 
 DevCalderon
 It is a personal website that i will be using to showcase my projects. 
-This will be the start of my learning curse to actively contribute or use GITHUB as one of my Developer tools.
+This will be the start of my self-learning experience to actively contribute or use GITHUB as one of my Developer tools.
 
-For GITHUBERS to play around and modify for their own Portfolio.
+These is always For GITHUBERS to play around or modify for their own Portfolio.
 
 Languages:
 HTML5, CSS3 and JavaScript
