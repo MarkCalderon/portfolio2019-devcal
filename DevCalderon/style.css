@@ -135,12 +135,20 @@ nav li:hover{
 }
 
 /*Paragraph Left/Right padding*/
-.pl-s p{
+.pl-m p, .pr-m h2{
     padding-left:5%;
 }
 
-.pr-s p{
+.pr-m p, .pr-m h2{
     padding-right:5%;
+}
+
+.pl-s p, .pr-s h2{
+    padding-left:2%;
+}
+
+.pr-s p, .pr-s h2{
+    padding-right:2%;
 }
 
 /*Set Margins*/
@@ -177,7 +185,6 @@ nav li:hover{
     margin-right:5%;
 }
 
-
 .mt-xxl{
     margin-top:10%;
 }
@@ -192,6 +199,10 @@ nav li:hover{
 
 .talign-r{
     text-align:right;
+}
+
+.talign-j{
+    text-align:justify;
 }
 
 /*Font Weight*/
@@ -254,6 +265,11 @@ nav li:hover{
     text-align:center;
 }
 
+.skill-bar{
+    width:500px;
+    height:50px;
+}
+
 .v-align{
     vertical-align:top;
 }
@@ -267,8 +283,49 @@ nav li:hover{
 
 .row-item-1{
     width:10%;
-
     display:flex;
     justify-content:center;
     align-items: center;
 }
+
+.row-item-2{
+    width:100%;
+}
+
+.bg-red{
+    background-color:red;
+}
+
+/*Project Image*/
+
+.project-image-1, .project-image-2{
+    width:20%;
+    height:20%;
+}
+
+.project-title-1, .project-title-2{
+    width:80%;
+    height:20%;
+}
+.project-title-1{
+    float:right;
+}
+
+.project-image-1{
+    float:left;
+}
+
+.project-image-2{
+    float:right;
+}
+
+.project-title-2{
+    float:left;
+}
+
+
+
+.clear{
+    clear:both;
+}
+
