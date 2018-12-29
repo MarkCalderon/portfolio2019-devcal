@@ -1,8 +1,8 @@
 # portfolio2019-devcal
 
 DevCalderon
-It is a website used for showcasing my portfolio projects 
-and a replacement for a developers resume.
+It is a personal website that i will be using to showcase my projects. 
+This will be the start of my learning curse to actively contribute or use GITHUB as one of my Developer tools.
 
 For GITHUBERS to play around and modify for their own Portfolio.
 
