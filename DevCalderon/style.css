@@ -17,14 +17,13 @@
 }
 
 #banner{
-    width:100%;
     display:flex;
     justify-content: center;
     align-items: center;
     height:300px;
     box-shadow: 0px 0px 5px -2px;
 }
-/*NAVIGATION BAR*/
+/*Navigation bar*/
 nav{
     height:70px;
     /* background: linear-gradient(to bottom, #00ffb3 0%,#63a46c 100%); */
@@ -32,31 +31,35 @@ nav{
     box-shadow: 0px 0px 5px -2px;
 }
 
+
+/*Set the link to have no colour rules*/
 nav a{
     text-decoration: none;
     color:black;
     font-size:30px;
 }
 
+/*Set the conainer of the lists to flexbox positioning - horizontally centered*/
 nav ul{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
+/*Setting the outlook of the link*/
 nav li{
     text-align:center;
     list-style-type:none;
-    align-items: center;
-    width:100%;
+    width:15%;
     height:70px;
     line-height:70px;
 }
 
+/*Setting the outlook of the link when hovered*/
 nav li:hover{
     background-color:white;
 }
 
-/*END OF NAVIGATION BAR*/
+/*END OF Navigation bar*/
 
 .content-container, .set-center{
     width:100%;
@@ -92,6 +95,10 @@ nav li:hover{
     align-items: center;
 }
 
+.set-dir-v{
+    flex-direction: column;
+}
+
 /*Content specific settings*/
 #bio-first{
     font-family:Garamond;
@@ -121,16 +128,49 @@ nav li:hover{
 
 #skills{
     width:900px;
-    background-color:red;
 }
 
-/*Paragraph Left padding*/
+/*Paragraph Left/Right padding*/
 .pl-s p{
     padding-left:5%;
 }
 
 .pr-s p{
     padding-right:5%;
+}
+
+/*Set Margins*/
+
+.mt-s{
+    margin-top:2%;
+}
+
+.mb-s{
+    margin-bottom:2%;
+}
+
+.ml-s{
+    margin-left:2%;
+}
+
+.mr-s{
+    margin-right:2%;
+}
+
+.mt-m{
+    margin-top:5%;
+}
+
+.mb-m{
+    margin-bottom:5%;
+}
+
+.ml-m{
+    margin-left:5%;
+}
+
+.mr-m{
+    margin-right:5%;
 }
 
 /*Text alignment*/
@@ -169,16 +209,25 @@ nav li:hover{
     font-size:50px;
 }
 
-/*Tables*/
+/*Skills*/
 
-
-.content-title{
-    width:100%;
+.row-title{
     display:flex;
-    justify-content: flex-start;
-
+    justify-content:flex-start;
+    align-items: center;
 }
 
-.row{
-    width:60%;
+.row-content{
+    width:70%;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.row-name{
+    width:10%;
+    text-align:center;
+}
+
+.v-align{
+    vertical-align:top;
 }
