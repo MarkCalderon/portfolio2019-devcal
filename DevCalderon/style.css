@@ -65,7 +65,7 @@ nav li:hover{
     width:100%;
 }
 
-.content-section-s, .content-section-m{
+.content-section-s, .content-section-m, .content-section-l{
     margin-top:2%;
 }
 
@@ -75,6 +75,10 @@ nav li:hover{
 
 .content-section-m{
     height:700px;
+}
+
+.content-section-l{
+    height:1000px;
 }
 
 /*Container Interface*/
@@ -173,9 +177,17 @@ nav li:hover{
     margin-right:5%;
 }
 
+
+.mt-xxl{
+    margin-top:10%;
+}
 /*Text alignment*/
 .talign-l{
     text-align:left;
+}
+
+.talign-c{
+    text-align:center;
 }
 
 .talign-r{
@@ -211,16 +223,30 @@ nav li:hover{
 
 /*Skills*/
 
-.row-title{
+.row-title-left,.row-title-center{
     display:flex;
-    justify-content:flex-start;
     align-items: center;
 }
 
-.row-content{
-    width:70%;
+.row-title-left{
+    justify-content:flex-start;
+}
+
+.row-title-center{
+    justify-content:center;
+}
+
+.row-content-m, .row-content-l{
     align-items:center;
     justify-content:space-between;
+}
+
+.row-content-m{
+    width:70%;
+}
+
+.row-content-l{
+    width:90%;
 }
 
 .row-name{
@@ -230,4 +256,19 @@ nav li:hover{
 
 .v-align{
     vertical-align:top;
+}
+
+.row-item-0{
+    width:30%;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.row-item-1{
+    width:10%;
+
+    display:flex;
+    justify-content:center;
+    align-items: center;
 }
