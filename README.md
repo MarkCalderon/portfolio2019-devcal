@@ -4,8 +4,10 @@ DevCalderon
 It is a website used for showcasing my portfolio projects 
 and a replacement for a developers resume.
 
+For GITHUBERS to play around and modify for their own Portfolio.
+
 Languages:
-HTML,CSS, JavaScript
+HTML5, CSS3 and JavaScript
 
 Design file: 
 
