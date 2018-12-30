@@ -16,8 +16,8 @@ Tasks:
 
  - Biography = DONE
  - Skills = DONE
- - Projects = PENDING
- - Contact = NOT YET STARTED
+ - Projects = PENDING, Information
+ - Contact = DONE
  
 2. JavaScript 
   This part would be the website functionality and interactivity
