@@ -4,6 +4,7 @@
     font-family: 'Oswald', sans-serif;
     margin:0;
     padding:0;
+    scroll-behavior: smooth;
 }
 
 .wrapper{
@@ -39,6 +40,11 @@ nav a{
     font-size:30px;
 }
 
+.link-nodeco{
+    text-decoration:none;
+    color:blue;
+}
+
 /*Set the conainer of the lists to flexbox positioning - horizontally centered*/
 nav ul{
     display:flex;
@@ -69,6 +75,10 @@ nav li:hover{
     margin-top:2%;
 }
 
+.content-section-xs{
+    height:150px;
+}
+
 .content-section-s{
     height:500px;
 }
@@ -82,7 +92,7 @@ nav li:hover{
 }
 
 .content-section-xl{
-    height:1300px;
+    height:1400px;
 }
 
 /*Container Interface*/
@@ -347,6 +357,3 @@ nav li:hover{
 }
 
 /*TESTING*/
-
-
-
