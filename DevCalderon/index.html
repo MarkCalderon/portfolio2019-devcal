@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dev Calderon</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <!--Font Awsome Framework-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body>
@@ -28,9 +27,20 @@
         </div>
         <div class="wrap-container">
             <main>
+                
                 <div class="content-container">
-                    <section id="bio-first" class="template-0 content-section-s set-center set-vh-flex pl-s">
-                            <table id="introductions">
+
+                    <!--
+                        Section id:bio-first
+                        template-0 - adds the linear gradient and box shadow
+                        content-section-s - adds a margin at the top by 2%, sets the height by 2%, and set the height to 500px
+                        content-container - use 100% of the mother container.
+                        set-vh-flex adds display:flex, justify-content:center, align-items:center
+                            >> Table id:N/A
+                    -->
+
+                    <section id="introductions" class="template-0 content-container content-section-s set-vh-flex">
+                            <table>
                                 <tr>
                                     <td rowspan="3"><img src="images/profile-pic.jpg" width="200" height="200" alt="sample"></td>
                                     <td valign="bottom"><p class="t-s-xxl t-bold">welcome to</p></td>
@@ -43,41 +53,65 @@
                                 </tr>
                             </table>
                     </section>
-                    <!--Divider-->
-                    <section id="bio-second" class="content-section-s set-center set-vh-flex pl-s">
+
+                     <!--
+                        Section id:bio-divider
+                        content-section-s - adds a margin at the top by 2%, sets the height by 2%, and set the height to 500px
+                        content-container - use 100% of the mother container.
+                        set-vh-flex adds display:flex, justify-content:center, align-items:center
+                            >> Table id:N/A
+                    -->
+
+                    <section id="bio-divider" class="content-container content-section-s set-vh-flex">
                             <table>
                                 <tr>
                                     <td rowspan="2"><i class="fas fa-cloud fa-9x row-name v-align"></i></td>
                                     <td valign="bottom"><p class="t-s-xl">Web Engineer</p></td>
                                 </tr>
                                 <tr>
-                                    <td valign="top"><p class="t-s-m talign-r">a vision to be</p></td>
+                                    <td valign="top"><p class="t-s-m">a vision to be</p></td>
                                 </tr>
                             </table>
                     </section>
 
-                    <section id="bio-third" class="template-0 content-section-s set-center set-vh-flex pl-s pr-m">
-                        <table id="biography">
+                    <!--
+                        Section id:biography
+                        template-0 - adds the linear gradient and box shadow
+                        content-section-s - adds a margin at the top by 2%, sets the height by 2%, and set the height to 500px
+                        content-container - use 100% of the mother container.
+                        set-vh-flex adds display:flex, justify-content:center, align-items:center
+                            >> Table id:N/A
+                    -->
+                    <section id="biography" class="template-0 content-container content-section-s set-vh-flex">
+                        <table>
                             <tr>
-                                <td><p class="t-s-m talign-r">A short bio about myself</p></td>
+                                <td><p class="t-s-m talign-r pr-s">A short bio about myself</p></td>
                                 <td rowspan="3"><img src="images/grad-pic.jpg" width="200" height="200" alt="profile picture"></td>
                             </tr>
                             <tr>
-                                <td><p class="talign-r">I started my self as an information communications and technology teacher. During the course of the years, I have learnt to adapt and foresee mistakes as a learning opportunity to better myself. As an educator, time is a luxury to have, and so practising time management and proper planning is one of the goals I strive for each day. I myself being a Computer Science and Software Engineering graduate we were taught to consider the life cycle of a project. 
+                                <td><p class="talign-r pr-s">I started my self as an information communications and technology teacher. During the course of the years, I have learnt to adapt and foresee mistakes as a learning opportunity to better myself. As an educator, time is a luxury to have, and so practising time management and proper planning is one of the goals I strive for each day. I myself being a Computer Science and Software Engineering graduate we were taught to consider the life cycle of a project. 
                                     Each cycle needs time to reflect,
                                     a time to communicate,
                                     and</p>
                                 </td>
                             </tr>
                             <tr>
-                            <td><p class="t-s-m talign-r">a time for <em>learning.</em></p></td>
+                            <td><p class="t-s-m talign-r pr-s">a time for <em>learning.</em></p></td>
                             </tr>
 
                         </table>
                     </section>
 
-                    <section class="content-section-s set-center set-vh-flex">
-                        <table id="web-technologies">
+                     <!--
+                        Section id: web-technologies
+                        content-section-s - adds a margin at the top by 2%, sets the height by 2%, and set the height to 500px
+                        content-container - use 100% of the mother container.
+                        set-vh-flex adds display:flex, justify-content:center, align-items:center
+                            >> Table id:N/A
+                    -->
+
+                    <section id="web-technologies" class="content-container content-section-s set-vh-flex">
+                        <table>
                                 <tr>
                                     <td><i class="fas fa-code fa-9x row-name v-align"></i></td>
                                     <td><p class="t-s-xl">Web Technologies</p></td>
@@ -85,8 +119,8 @@
                         </table>
                     </section>
 
-                    <section id="skills-first" class="template-0 content-section-l set-center set-vh-flex">
-                        <div id="skills">
+                    <section id="skills-first" class="template-0 content-container content-section-l set-h-flex">
+                        <div id="skills-container">
                                  <!--Skills-->
                                 <div class="row-title-left mt-m"><i class="fas fa-tools fa-3x"></i><h3 class="ml-s t-s-l">Skills</h3></div>
                                     <div class="content-container set-vh-flex set-dir-v mt-m">
@@ -151,7 +185,7 @@
 
                     <!--End of skills-->
 
-                    <section class="content-section-s set-center set-vh-flex">
+                    <section class="content-section-s content-container set-vh-flex">
                             <table id="collections">
                                     <tr>
                                         <td><i class="fas fa-folder-open fa-9x row-name v-align"></i></td>
@@ -161,7 +195,7 @@
                     </section>
 
                     <!-- portfolio-->
-                    <section id="portfolios-first" class="template-0 content-section-xl set-center">
+                    <section id="portfolios-first" class="template-0 content-container content-section-xl">
                         <div id="portfolio">
                                 <div class="row-title-left pt-m pl-m"><i class="fas fa-folder-open fa-3x"></i><h3 class="ml-s t-s-l">Personal Projects</h3></div>
 
@@ -198,7 +232,7 @@
                         </div>      
                     </section>
 
-                    <section class="content-section-s set-center set-vh-flex">
+                    <section class="content-section-s content-container set-vh-flex">
                         <table id="contacts">
                                 <tr>
                                     <td><i class="far fa-life-ring fa-9x row-name-2 v-align"></i></td>
@@ -210,7 +244,7 @@
                     <!--Contact Information-->
                     <section class="template-0 content-section-s set-vh-flex">
                         <div id="contact" class="content-container">
-                            <div class="pt-m set-h-flex set-center">
+                            <div class="pt-m set-h-flex f-width">
                                 <i class="fas fas-code-branch fa-3x"></i>
                                 <h3 class="ml-s t-s-l">Choose your preferred communication</h3>
                             </div>
@@ -229,7 +263,7 @@
 
                     </section>
 
-                    <section class="content-section-xs set-center set-vh-flex">
+                    <section class="content-section-xs content-container set-vh-flex">
                             <table id="references">
                                     <tr>
                                         <td><p class="row-name-2 t-s-l">Copyright © All Rights Reserved 2019 | Designed by Mark Calderon </p></td>

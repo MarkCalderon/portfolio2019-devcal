@@ -67,11 +67,11 @@ nav li:hover{
 
 /*END OF Navigation bar*/
 
-.content-container, .set-center{
+.content-container{
     width:100%;
 }
 
-.content-section-s, .content-section-m, .content-section-l{
+.content-section-s, .content-section-xs, .content-section-m, .content-section-l{
     margin-top:2%;
 }
 
@@ -126,35 +126,17 @@ nav li:hover{
     width:100%;
 }
 
-/*Content specific settings*/
-#bio-first{
-    font-family:Garamond;
-}
-
-#bio-third{
-    font-family:Garamond;
-}
-
 /*Table templates*/
-#introductions{
-    width:480px;
+#introductions table, #bio-divider table, #web-technologies table{
+    width:40%;
 }
 
-#biography{
-    width:750px;
+#biography table{
+    width:60%;
 }
 
-#web-technologies{
-    width:530px;
-}
-
-#skills-first{
-    display:flex;
-    align-items: baseline;
-}
-
-#skills{
-    width:900px;
+#skills-container{
+    width:80%;
 }
 
 /*Paragraph Left/Right padding*/
@@ -316,6 +298,19 @@ nav li:hover{
 
 .v-align{
     vertical-align:top;
+}
+
+/*Vertical Alignmments*/
+.vt-align{
+    vertical-align:top;
+}
+
+.vb-align{
+    vertical-align:bottom;
+}
+
+.vc-align{
+    vertical-align:center;
 }
 
 .row-item-0{
