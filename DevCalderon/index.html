@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dev Calderon</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <!--Font Awsome Framework-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body>
@@ -19,65 +18,100 @@
         <div class="wrap-container">
             <nav id="navigations">
                 <ul>
-                    <li><a href="#">Biography</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#bio-divider">Biography</a></li>
+                    <li><a href="#web-technologies">Skills</a></li>
+                    <li><a href="#collections">Portfolio</a></li>
+                    <li><a href="#contacts">Contact</a></li>
                 </ul>
             </nav>
         </div>
         <div class="wrap-container">
             <main>
+                
                 <div class="content-container">
-                    <section id="bio-first" class="template-0 content-section-s set-center set-vh-flex pl-s">
-                            <table id="introductions">
+
+                    <!--
+                        Section id:bio-first
+                        template-0 - adds the linear gradient and box shadow
+                        content-section-s - adds a margin at the top by 2%, sets the height by 2%, and set the height to 500px
+                        content-container - use 100% of the mother container.
+                        set-vh-flex adds display:flex, justify-content:center, align-items:center
+                            >> Table id:N/A
+                    -->
+
+                    <section id="introductions" class="template-0 content-container content-section-s set-vh-flex">
+                            <table>
                                 <tr>
                                     <td rowspan="3"><img src="images/profile-pic.jpg" width="200" height="200" alt="sample"></td>
                                     <td valign="bottom"><p class="t-s-xxl t-bold">welcome to</p></td>
                                 </tr>
                                 <tr>
-                                    <td valign="top"><p class="t-s-l t-bold">Mark Calderon</p></td>
+                                    <td valign="top"><p class="t-s-l t-bold">Portfolio site</p></td>
                                 </tr>
                                 <tr>
                                     <td valign="top"><p class="t-s-m">Dev-Mark Calderon</p></td>
                                 </tr>
                             </table>
                     </section>
-                    <!--Divider-->
-                    <section class="content-section-s set-center set-vh-flex pl-s">
+
+                     <!--
+                        Section id:bio-divider
+                        content-section-s - adds a margin at the top by 2%, sets the height by 2%, and set the height to 500px
+                        content-container - use 100% of the mother container.
+                        set-vh-flex adds display:flex, justify-content:center, align-items:center
+                            >> Table id:N/A
+                    -->
+
+                    <section id="bio-divider" class="content-container content-section-s set-vh-flex">
                             <table>
                                 <tr>
                                     <td rowspan="2"><i class="fas fa-cloud fa-9x row-name v-align"></i></td>
                                     <td valign="bottom"><p class="t-s-xl">Web Engineer</p></td>
                                 </tr>
                                 <tr>
-                                    <td valign="top"><p class="t-s-m talign-r">a vision to be</p></td>
+                                    <td valign="top"><p class="t-s-m">a vision to be</p></td>
                                 </tr>
                             </table>
                     </section>
 
-                    <section id="bio-third" class="template-0 content-section-s set-center set-vh-flex pl-s pr-m">
-                        <table id="biography">
+                    <!--
+                        Section id:biography
+                        template-0 - adds the linear gradient and box shadow
+                        content-section-s - adds a margin at the top by 2%, sets the height by 2%, and set the height to 500px
+                        content-container - use 100% of the mother container.
+                        set-vh-flex adds display:flex, justify-content:center, align-items:center
+                            >> Table id:N/A
+                    -->
+                    <section id="biography" class="template-0 content-container content-section-s set-vh-flex">
+                        <table>
                             <tr>
-                                <td><p class="t-s-m talign-r">A short bio about myself</p></td>
+                                <td><p class="t-s-m talign-r pr-s">A short bio about myself</p></td>
                                 <td rowspan="3"><img src="images/grad-pic.jpg" width="200" height="200" alt="profile picture"></td>
                             </tr>
                             <tr>
-                                <td><p class="talign-r">I started my self as an information communications and technology teacher. During the course of the years, I have learnt to adapt and foresee mistakes as a learning opportunity to better myself. As an educator, time is a luxury to have, and so practising time management and proper planning is one of the goals I strive for each day. I myself being a Computer Science and Software Engineering graduate we were taught to consider the life cycle of a project. 
+                                <td><p class="talign-r pr-s">I started my self as an information communications and technology teacher. During the course of the years, I have learnt to adapt and foresee mistakes as a learning opportunity to better myself. As an educator, time is a luxury to have, and so practising time management and proper planning is one of the goals I strive for each day. I myself being a Computer Science and Software Engineering graduate we were taught to consider the life cycle of a project. 
                                     Each cycle needs time to reflect,
                                     a time to communicate,
                                     and</p>
                                 </td>
                             </tr>
                             <tr>
-                            <td><p class="t-s-m talign-r">a time for <em>learning.</em></p></td>
+                            <td><p class="t-s-m talign-r pr-s">a time for <em>learning.</em></p></td>
                             </tr>
 
                         </table>
                     </section>
 
-                    <section class="content-section-s set-center set-vh-flex">
-                        <table id="web-technologies">
+                     <!--
+                        Section id: web-technologies
+                        content-section-s - adds a margin at the top by 2%, sets the height by 2%, and set the height to 500px
+                        content-container - use 100% of the mother container.
+                        set-vh-flex adds display:flex, justify-content:center, align-items:center
+                            >> Table id:N/A
+                    -->
+
+                    <section id="web-technologies" class="content-container content-section-s set-vh-flex">
+                        <table>
                                 <tr>
                                     <td><i class="fas fa-code fa-9x row-name v-align"></i></td>
                                     <td><p class="t-s-xl">Web Technologies</p></td>
@@ -85,8 +119,17 @@
                         </table>
                     </section>
 
-                    <section id="skills-first" class="template-0 content-section-l set-center set-vh-flex">
-                        <div id="skills">
+                      <!--
+                        Section id:skills-first
+                         template-0 - adds the linear gradient and box shadow
+                        content-section-l - adds a margin at the top by 2%, sets the height by 2%, and set the height to 1000px
+                        content-container - use 100% of the mother container.
+                        set-vh-flex adds display:flex, justify-content:center, align-items:center
+                            >> div id:skills-first
+                    -->
+
+                    <section id="skills-first" class="template-0 content-container content-section-l set-h-flex">
+                        <div id="skills-container">
                                  <!--Skills-->
                                 <div class="row-title-left mt-m"><i class="fas fa-tools fa-3x"></i><h3 class="ml-s t-s-l">Skills</h3></div>
                                     <div class="content-container set-vh-flex set-dir-v mt-m">
@@ -151,7 +194,7 @@
 
                     <!--End of skills-->
 
-                    <section class="content-section-s set-center set-vh-flex">
+                    <section class="content-section-s content-container set-vh-flex">
                             <table id="collections">
                                     <tr>
                                         <td><i class="fas fa-folder-open fa-9x row-name v-align"></i></td>
@@ -161,35 +204,50 @@
                     </section>
 
                     <!-- portfolio-->
-                    <section id="portfolios-first" class="template-0 content-section-xl set-center">
+                    <section id="portfolios-first" class="template-0 content-container content-section-xl">
                         <div id="portfolio">
-                                <div class="row-title-left pt-m pl-m"><i class="fas fa-folder-open fa-3x"></i><h3 class="ml-s t-s-l">Personal Projects</h3></div>
+                                <div class="row-title-left pt-l pl-m"><i class="fas fa-folder-open fa-3x"></i><h3 class="ml-s t-s-l">Personal Projects</h3></div>
 
                                 <div class="set-vh-flex mt-s">
                                         <div class="project-item">
                                             <table>
                                                 <tr><td rowspan="2" valign="top"><img src="images/portfolio.png" width="100%" alt="Sample"></td>
-                                                <td><h3 class="ml-s">Portfolio site</h3></td></tr>
-                                                <tr> <td valign="top"><p class="ml-s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p></td></tr>
+                                                <td><h3 class="ml-s t-s-m">DevCalderon | Portfolio Site</h3></td></tr>
+                                                <tr> <td valign="top">
+                                                    
+                                                    <p class="ml-s t-s-m talign-j">This site is developed to be a static design where information is directly embedded onto the HTML file. It is a personal website that I will be using to showcase my future projects. This shows my determination to continue my self-professional development. And also to contribute or practice the use of GITHUB as one of my main developer’s tool. As I progress further towards my goal, the objective is to make this site into a dynamic webpage built with functional tools to manage and distribute content.</p>
+                                                    <p class="ml-m mt-s t-s-m"><strong>Languages:</strong> HTML and CSS</p></td></tr>
                                                 
                                                 <tr height="100"></tr>
                                             
-                                                <tr><td rowspan="2" valign="top"><img src="https://via.placeholder.com/200x280" alt="Sample"></td>
-                                                <td><h3 class="ml-s">Portfolio site</h3></td></tr>
-                                                <tr> <td valign="top"><p class="ml-s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p></td></tr>
+                                                <tr><td rowspan="2" valign="top"><img src="images/UPEVEN.jpg" width="100%" alt="Sample"></td>
+                                                <td><h3 class="ml-s">UPEVEN | eCommerce Site</h3></td></tr>
+                                                <tr><td valign="top" class="t-s-m">
+                                                <p class="ml-s talign-j">It is an online transaction site where users are allowed to buy and sell over the internet. It includes a content management system where users are able to do basic functions of CRUD (Create, Retrieve, Update and Delete). It also comes with a security roles where administrators, sellers and buyers have different access from each other. The system was built with an SQL database where data is stored. This is our final year project for my major in BSc (Honours) in Computer Science and Software Engineering.</p>
+                                                <h4 class="mt-s ml-m">Languages:</h4>
+                                                <p class="mt-s ml-m">C# ASP.NET MVC, HTML, CSS, jQuery and Microsoft SQL</p>
+                                                <h4 class="mt-s ml-m">Project Specifications:</h4>
+                                                <p class="mt-s ml-m">Software Project Management includes the flowchart of the entire system which showcases the main functions of the site, development timeline and software architecture.</p>
+                                                <p class="mt-s ml-m">The system is built around the Model View Controller framework which separates the business model, user interface and the functionality.</p>
+                                                <p class="mt-s ml-m">At the business model, each data field is normalized to eliminate any redundancy of data.</p>
+                                                </td></tr>
                                             
                                                 <tr height="100"></tr>
                                                 
-                                                <tr><td rowspan="2" valign="top"><img src="https://via.placeholder.com/200x280" alt="Sample"></td>
-                                                <td><h3 class="ml-s">Portfolio site</h3></td></tr>
-                                                <tr> <td valign="top"><p class="ml-s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p></td></tr>
+                                                <tr><td rowspan="2" valign="top"><img src="images/PleasantVideos.jpg"  width="100%" alt="Sample"></td>
+                                                <td><h3 class="ml-s">Pleasant Videos | Multimedia site</h3></td></tr>
+                                                <tr> <td valign="top" class="t-s-m">
+                                                    <p class="ml-s talign-j">It is media site which showcases a collection of audio or video files for users to view and play. It acts as a platform for music or video owners to share their views and passion towards producing music content. The site features a gallery that is interactive where in when hovered, various details of the album is displayed. The client can opt for a spot to advertise their company or product.</p>
+                                                    <h4 class="mt-s ml-m">Languages:</h4>
+                                                    <p class="mt-s ml-m">HTML, CSS, XML, and jQuery</p>
+                                                </td></tr>
                                             </table>
                                         </div>
                                 </div>  
                         </div>      
                     </section>
 
-                    <section class="content-section-s set-center set-vh-flex">
+                    <section class="content-section-s content-container set-vh-flex">
                         <table id="contacts">
                                 <tr>
                                     <td><i class="far fa-life-ring fa-9x row-name-2 v-align"></i></td>
@@ -201,7 +259,7 @@
                     <!--Contact Information-->
                     <section class="template-0 content-section-s set-vh-flex">
                         <div id="contact" class="content-container">
-                            <div class="pt-m set-h-flex set-center">
+                            <div class="pt-m set-h-flex f-width">
                                 <i class="fas fas-code-branch fa-3x"></i>
                                 <h3 class="ml-s t-s-l">Choose your preferred communication</h3>
                             </div>
@@ -213,12 +271,23 @@
                             </div>
                             <div class="mt-m set-h-flex">
                                     <div class="row-item-2 t-s-l t-bold">mac.a4@live.com</div>
-                                    <div class="row-item-2 t-s-l t-bold">(+673) 239 3923</div>
+                                    <div class="row-item-2 t-s-l t-bold">(+673) 819 5693</div>
                                     <div class="row-item-2 t-s-l t-bold">Brunei Darussalam</div>
                             </div>
                         </div>
 
                     </section>
+
+                    <section class="content-section-xs content-container set-vh-flex">
+                            <table id="references">
+                                    <tr>
+                                        <td><p class="row-name-2 t-s-l">Copyright © All Rights Reserved 2019 | Designed by Mark Calderon </p></td>
+                                    </tr>
+                                    <tr>
+                                        <td><p class="row-name-2 t-s-l"><a class="link-nodeco" href="#banner">BACK TO TOP</a></p></td>
+                                    </tr>
+                            </table>
+                        </section>
                 </div>
             </main>
         </div>
