@@ -88,11 +88,11 @@ nav li:hover{
 }
 
 .content-section-l{
-    height:1000px;
+    height:1100px;
 }
 
 .content-section-xl{
-    height:1400px;
+    height:1500px;
 }
 
 /*Container Interface*/
@@ -168,6 +168,10 @@ nav li:hover{
 
 .pt-m{
     padding-top:2%;
+}
+
+.pt-l{
+    padding-top:5%;
 }
 /*Set Margins*/
 
