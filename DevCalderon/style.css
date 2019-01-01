@@ -130,18 +130,21 @@ nav li:hover{
 
 /*Table templates*/
 #introductions table, #bio-divider table, #web-technologies table{
-    /* width:40%; */
-    width:480px;
+    width:40%;
+    /* width:100%; */
+    /* width:480px; */
 }
 
 #biography table{
-    /* width:60%; */
-    width:750px;
+    width:60%;
+    /* width:100%; */
+    /* width:750px; */
 }
 
 #skills-container{
-    /* width:80%; */
-    width:830px;
+    width:80%;
+    /* width:100%; */
+    /* width:830px; */
 }
 
 
