@@ -12,15 +12,14 @@ HTML5, CSS3 and JavaScript
 Design file: (NOT INCLUDED)
 
 Tasks:
-1. Add the essential content
+1. Adding the content
 
  - Biography = DONE
  - Skills = DONE
- - Projects = PENDING, Information
+ - Projects = DONE
  - Contact = DONE
  
-2. JavaScript 
-  This part would be the website functionality and interactivity
+2. Responsive Design - PENDING
   
-3. Review of Code
-4. Documentation
+3. Review of Code -ONGOING
+4. Documentation - ONGOING
