@@ -8,7 +8,8 @@
 }
 
 .wrapper{
-    width:1248px;
+    /* width:1248px; */
+    width:80%;
     height:1000px;
     margin:0 auto;
 }
@@ -92,7 +93,8 @@ nav li:hover{
 }
 
 .content-section-xl{
-    height:1500px;
+    height:100%;
+    padding-bottom:5%;
 }
 
 /*Container Interface*/
@@ -129,14 +131,20 @@ nav li:hover{
 /*Table templates*/
 #introductions table, #bio-divider table, #web-technologies table{
     width:40%;
+    /* width:100%; */
+    /* width:480px; */
 }
 
 #biography table{
     width:60%;
+    /* width:100%; */
+    /* width:750px; */
 }
 
 #skills-container{
     width:80%;
+    /* width:100%; */
+    /* width:830px; */
 }
 
 
@@ -239,23 +247,29 @@ nav li:hover{
 /*Font size*/
 
 .t-s-s{
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size:0.938em;
 }
 
 .t-s-m{
-    font-size:20px;
+    /* font-size:20px; */
+    font-size:1.25em;
 }
 
 .t-s-l{
-    font-size:30px;
+     /* font-size:30px;  */
+    font-size:1.8em;
+    
 }
 
 .t-s-xl{
-    font-size:40px;
+    /* font-size:40px;  */
+    font-size:2.8em;
 }
 
 .t-s-xxl{
-    font-size:50px;
+    /* font-size:50px; */
+    font-size:3em;
 }
 
 /*Skills*/
