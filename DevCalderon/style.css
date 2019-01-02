@@ -129,6 +129,22 @@ nav li:hover{
 }
 
 /*Table templates*/
+
+@keyframes anim{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+#bio-divider, #web-technologies, #collections{
+    animation-name:anim;
+    animation-duration:6s;
+}
+
+
 #introductions table, #bio-divider table, #web-technologies table{
     width:40%;
     /* width:100%; */
